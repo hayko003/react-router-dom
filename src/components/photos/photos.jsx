@@ -1,12 +1,13 @@
 import React from "react";
-import "./home.css"
+import "./photos.css"
+
 function Photos(props) {
   return (
-    <div>
+    <div className="photos_wrapper">
       {props.photos.map((elem) => (
         <div key={elem.id}>
           <h2>{elem.title}</h2>
-          <img src={elem.url} alt="" />
+          <p>{elem.id}</p>
         </div>
       ))}
     </div>

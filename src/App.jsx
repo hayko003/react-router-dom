@@ -1,9 +1,10 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/home";
-import Posts from "./components/posts"
+import Home from "./components/home/home";
+import Posts from "./components/posts/posts"
 import Header from "./components/header/header";
-import Photos from "./components/photos";
+import Photos from "./components/photos/photos";
+import Not from "./components/error/not";
 function App(props) {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App(props) {
           <Route path="" element={<Home/>} />
           <Route path="/posts" element={<Posts posts={props.posts} />}/>
           <Route path="/photos" element={<Photos photos={props.photos}/>}></Route>
+          <Route path="*" element={<Not/>}></Route>
       </Routes>
     </div>
   );
