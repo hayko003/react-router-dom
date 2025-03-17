@@ -1,0 +1,16 @@
+.nav_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 100px;
+    min-height: 100px;
+}
+
+.non_active {
+    color: white;
+}
+
+.active {
+    color: bisque;
+}
