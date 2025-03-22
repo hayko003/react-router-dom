@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color:rgb(0, 81, 255);
     gap: 100px;
     min-height: 100px;
 }
@@ -13,4 +13,8 @@
 
 .active {
     color: bisque;
+}
+
+.nav_img {
+    width: 100px;
 }

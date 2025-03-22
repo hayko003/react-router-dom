@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
+
 
 .active {
   color: red;
@@ -14,4 +16,10 @@
   background-color: white;
   font-size: 24px;
   color: black;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  width: 300px;
 }
